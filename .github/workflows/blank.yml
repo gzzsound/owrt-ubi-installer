@@ -33,7 +33,7 @@ jobs:
         run: sudo apt install libfdt-dev cmake
 
       - name: Run builder script
-        run: mkdir -m 0700 $HOME/.gnupg ; bash build_installer.sh ${{ github.event.inputs.openwrtAddPackages }}"
+        run: mkdir -m 0700 $HOME/.gnupg ; bash build_installer.sh ${{ github.event.inputs.openwrtAddPackages }}
 
       #      - name: Store created images
       #        uses: actions/upload-artifact@v2
