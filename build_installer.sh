@@ -24,6 +24,9 @@ FILEBASE=
 WORKDIR=
 ITSFILE=
 
+echo $1
+exit
+
 run_openwrt_ib() {
 	mkdir -p "${INSTALLERDIR}/dl"
 	cd "${INSTALLERDIR}/dl"
